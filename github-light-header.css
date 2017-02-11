@@ -1,62 +1,69 @@
 .header-dark {
-    color: #333;
-    background-color: #f5f5f5
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5
 }
 .server-stats+.header-dark {
-    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075)
+    box-shadow: none;
 }
 .header-dark .header-logo-wordmark,
 .header-dark .header-logo-invertocat {
-    color: #000
+    color: #555
+}
+.header-dark .header-logo-wordmark:hover,
+.header-dark .header-logo-invertocat:hover {
+    color: #4078c0;
 }
 .header-dark .header-nav-link {
-    color: #333
+    color: #555
 }
 .header-dark .header-nav-link:hover,
 .header-dark .header-nav-link:focus {
-    color: #000
+    color: #4078c0
 }
 .header-dark .header-nav-link:hover .dropdown-caret,
 .header-dark .header-nav-link:focus .dropdown-caret {
-    border-top-color: #000
+    border-top-color: #4078c0
 }
 .header-dark .notification-indicator .mail-status {
-    border-color: #fff
+    border-color: #f3f3f3
 }
 .header-dark .header-search {
-    font-size: 13px
+    font-size: 14px
 }
 .header-dark .header-search-scope {
-    font-size: inherit;
-    line-height: 28px;
-    color: #333;
-    border-right-color: #22282d
+    font-size: 12px;
+    line-height: 26px;
+    background: #fff;
+    border-right: 1px solid #eee;
+    color: #767676;
 }
 .header-dark .header-search-scope:empty+.header-search-input {
     width: 100%
 }
 .header-dark .header-search-wrapper {
-    min-height: 30px;
+    min-height: 0;
     font-size: inherit;
     color: #000;
-    background-color: rgba(0, 0, 0, 0.125);
-    border: 0;
-    box-shadow: none
+    background-color: inherit;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075)
 }
 .header-dark .header-search-wrapper.focus {
-    background-color: rgba(0, 0, 0, 0.175);
-    box-shadow: none
+    border-color: #51a7e8;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
 }
 .header-dark .header-search-wrapper.focus .header-search-scope {
-    color: #000;
-    background-color: rgba(0, 0, 0, 0.075);
-    border-right-color: #22282d
+    color: #4078c0;
+    background-color: #edf2f9;
+    border-color: #c6d7ec
 }
 .header-dark .header-search-input {
-    min-height: 30px;
+    min-height: 26px;
     font-size: inherit;
     background: #fff;
-    border: 1px solid rgb(221,221,221);
+    border: 0;
     color: inherit
 }
 .header-dark .header-search-input::-webkit-input-placeholder {
