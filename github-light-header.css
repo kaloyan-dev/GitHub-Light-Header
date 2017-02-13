@@ -1,48 +1,48 @@
-.header-dark {
+.header {
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #f5f5f5;
     border-bottom: 1px solid #e5e5e5
 }
-.server-stats+.header-dark {
+.server-stats+.header {
     box-shadow: none;
 }
-.header-dark .header-logo-wordmark,
-.header-dark .header-logo-invertocat {
+.header .header-logo-wordmark,
+.header .header-logo-invertocat {
     color: #555
 }
-.header-dark .header-logo-wordmark:hover,
-.header-dark .header-logo-invertocat:hover {
+.header .header-logo-wordmark:hover,
+.header .header-logo-invertocat:hover {
     color: #4078c0;
 }
-.header-dark .header-nav-link {
+.header .header-nav-link {
     color: #555
 }
-.header-dark .header-nav-link:hover,
-.header-dark .header-nav-link:focus {
+.header .header-nav-link:hover,
+.header .header-nav-link:focus {
     color: #4078c0
 }
-.header-dark .header-nav-link:hover .dropdown-caret,
-.header-dark .header-nav-link:focus .dropdown-caret {
+.header .header-nav-link:hover .dropdown-caret,
+.header .header-nav-link:focus .dropdown-caret {
     border-top-color: #4078c0
 }
-.header-dark .notification-indicator .mail-status {
+.header .notification-indicator .mail-status {
     border-color: #f3f3f3
 }
-.header-dark .header-search {
+.header .header-search {
     font-size: 14px
 }
-.header-dark .header-search-scope {
+.header .header-search-scope {
     font-size: 12px;
     line-height: 26px;
     background: #fff;
     border-right: 1px solid #eee;
     color: #767676;
 }
-.header-dark .header-search-scope:empty+.header-search-input {
+.header .header-search-scope:empty+.header-search-input {
     width: 100%
 }
-.header-dark .header-search-wrapper {
+.header .header-search-wrapper {
     min-height: 0;
     font-size: inherit;
     color: #000;
@@ -50,31 +50,31 @@
     border: 1px solid #ddd;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075)
 }
-.header-dark .header-search-wrapper.focus {
+.header .header-search-wrapper.focus {
     border-color: #51a7e8;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(81,167,232,0.5);
 }
-.header-dark .header-search-wrapper.focus .header-search-scope {
+.header .header-search-wrapper.focus .header-search-scope {
     color: #4078c0;
     background-color: #edf2f9;
     border-color: #c6d7ec
 }
-.header-dark .header-search-input {
+.header .header-search-input {
     min-height: 26px;
     font-size: inherit;
     background: #fff;
     border: 0;
     color: inherit
 }
-.header-dark .header-search-input::-webkit-input-placeholder {
+.header .header-search-input::-webkit-input-placeholder {
     color: rgba(0, 0, 0, 0.5)
 }
-.header-dark .header-search-input::-moz-placeholder {
+.header .header-search-input::-moz-placeholder {
     color: rgba(0, 0, 0, 0.5)
 }
-.header-dark .header-search-input:-ms-input-placeholder {
+.header .header-search-input:-ms-input-placeholder {
     color: rgba(0, 0, 0, 0.5)
 }
-.header-dark .header-search-input::placeholder {
+.header .header-search-input::placeholder {
     color: rgba(0, 0, 0, 0.5)
 }
